@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4e300f6b299a82b89bf8b7a3b1185b80",
+    "content-hash": "bdb18fd5426a3d09274256268304a6a4",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -4056,6 +4056,183 @@
                 "controllers"
             ],
             "time": "2019-12-27T08:57:19+00:00"
+        },
+        {
+            "name": "shirtcharity/chairman",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shirtcharity/chairman.git",
+                "reference": "bd26acdbebb061e0167b8b017cf9bb67c21cd01f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shirtcharity/chairman/zipball/bd26acdbebb061e0167b8b017cf9bb67c21cd01f",
+                "reference": "bd26acdbebb061e0167b8b017cf9bb67c21cd01f",
+                "shasum": ""
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "shopware-plugin-class": "ShirtCharity\\Chairman\\Chairman",
+                "label": {
+                    "de-DE": "Chairman (shirt.charity Charity Manager)",
+                    "en-GB": "Chairman (shirt.charity Charity Manager)"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ShirtCharity\\Chairman\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "EUPL-1.2"
+            ],
+            "authors": [
+                {
+                    "name": "shirt.charity",
+                    "homepage": "https://shirt.charity"
+                }
+            ],
+            "description": "Chairman (shirt.charity Charity Manager Shopware Plugin)",
+            "support": {
+                "issues": "https://github.com/shirtcharity/chairman/issues",
+                "source": "https://github.com/shirtcharity/chairman/tree/1.0.0"
+            },
+            "time": "2021-01-23T14:20:12+00:00"
+        },
+        {
+            "name": "shirtcharity/klingelbeutel",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shirtcharity/klingelbeutel.git",
+                "reference": "bfa1fe29a286d195f113ee25d0ba8d08a2a142c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shirtcharity/klingelbeutel/zipball/bfa1fe29a286d195f113ee25d0ba8d08a2a142c4",
+                "reference": "bfa1fe29a286d195f113ee25d0ba8d08a2a142c4",
+                "shasum": ""
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "shopware-plugin-class": "ShirtCharity\\Klingelbeutel\\Klingelbeutel",
+                "label": {
+                    "de-DE": "Klingelbeutel (shirt.charity-Plugin um Spendenoptionen zu Produkten hinzuzufügen)",
+                    "en-GB": "Klingelbeutel (shirt.charity plugin to add donation options to products)"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ShirtCharity\\Klingelbeutel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "EUPL-1.2"
+            ],
+            "authors": [
+                {
+                    "name": "shirt.charity",
+                    "homepage": "https://shirt.charity"
+                }
+            ],
+            "description": "Klingelbeutel (Shopware plugin to add donation options to products)",
+            "support": {
+                "issues": "https://github.com/shirtcharity/klingelbeutel/issues",
+                "source": "https://github.com/shirtcharity/klingelbeutel/tree/1.0.0"
+            },
+            "time": "2021-01-23T12:04:59+00:00"
+        },
+        {
+            "name": "shirtcharity/shirt",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shirtcharity/shirt.git",
+                "reference": "59ba555225a680cb3ad05ee52f8a457dcb729ac2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shirtcharity/shirt/zipball/59ba555225a680cb3ad05ee52f8a457dcb729ac2",
+                "reference": "59ba555225a680cb3ad05ee52f8a457dcb729ac2",
+                "shasum": ""
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "shopware-plugin-class": "ShirtCharity\\Shirt\\Shirt",
+                "label": {
+                    "de-DE": "Shirt (shirt.charity Shopware Theme)",
+                    "en-GB": "Shirt (shirt.charity Shopware Theme)"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ShirtCharity\\Shirt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "EUPL-1.2"
+            ],
+            "authors": [
+                {
+                    "name": "shirt.charity",
+                    "homepage": "https://shirt.charity"
+                }
+            ],
+            "description": "Shirt (shirt.charity Shopware Theme)",
+            "support": {
+                "issues": "https://github.com/shirtcharity/shirt/issues",
+                "source": "https://github.com/shirtcharity/shirt/tree/1.0.0"
+            },
+            "time": "2021-01-25T17:14:56+00:00"
+        },
+        {
+            "name": "shirtcharity/shirtish",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shirtcharity/shirtish.git",
+                "reference": "c36a3114872ccb315de71c63c531fa041b4a2cd9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shirtcharity/shirtish/zipball/c36a3114872ccb315de71c63c531fa041b4a2cd9",
+                "reference": "c36a3114872ccb315de71c63c531fa041b4a2cd9",
+                "shasum": ""
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "shopware-plugin-class": "ShirtCharity\\Shirtish\\Shirtish",
+                "shopware-platform-base-commit": "dc86cdbbcfeb60fe5ba2d7f3cbf13d232367361e",
+                "label": {
+                    "de-DE": "Shirtish (shirt.charity Sprachpaket)",
+                    "en-GB": "Shirtish (shirt.charity Language Pack)"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ShirtCharity\\Shirtish\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "EUPL-1.2"
+            ],
+            "authors": [
+                {
+                    "name": "shirt.charity",
+                    "homepage": "https://shirt.charity"
+                }
+            ],
+            "description": "Shirtish (shirt.charity Shopware language pack)",
+            "support": {
+                "issues": "https://github.com/shirtcharity/shirtish/issues",
+                "source": "https://github.com/shirtcharity/shirtish/tree/1.0.0"
+            },
+            "time": "2021-01-04T20:17:34+00:00"
         },
         {
             "name": "shopware/administration",
@@ -10710,5 +10887,6 @@
     },
     "platform-overrides": {
         "php": "7.2.9"
-    }
+    },
+    "plugin-api-version": "2.0.0"
 }
