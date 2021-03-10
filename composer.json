@@ -1,5 +1,6 @@
 {
     "name": "shirtcharity/shopware",
+    "description": "shirt.charity Shopware 6 distribution",
     "type": "project",
     "license": "MIT",
     "config": {
