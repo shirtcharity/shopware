@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bdb18fd5426a3d09274256268304a6a4",
+    "content-hash": "26db92ea56eaecdc7a486566a39ce814",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -4256,6 +4256,50 @@
                 "source": "https://github.com/shirtcharity/chairman/tree/1.0.0"
             },
             "time": "2021-01-23T14:20:12+00:00"
+        },
+        {
+            "name": "shirtcharity/choix",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shirtcharity/choix.git",
+                "reference": "4dd896b9f5d2836379b02c5abbdbfbe6e9278d48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shirtcharity/choix/zipball/4dd896b9f5d2836379b02c5abbdbfbe6e9278d48",
+                "reference": "4dd896b9f5d2836379b02c5abbdbfbe6e9278d48",
+                "shasum": ""
+            },
+            "type": "shopware-platform-plugin",
+            "extra": {
+                "shopware-plugin-class": "ShirtCharity\\Choix\\Choix",
+                "label": {
+                    "de-DE": "Choix (shirt.charity-Plugin um eine Auswahl zur Datenübermittlung beim Checkout zu bieten)",
+                    "en-GB": "Choix (shirt.charity plugin to provide a data transfer choice at checkout)"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ShirtCharity\\Choix\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "EUPL-1.2"
+            ],
+            "authors": [
+                {
+                    "name": "shirt.charity",
+                    "homepage": "https://shirt.charity"
+                }
+            ],
+            "description": "Choix (Shopware plugin to provide a data transfer choice at checkout)",
+            "support": {
+                "issues": "https://github.com/shirtcharity/choix/issues",
+                "source": "https://github.com/shirtcharity/choix/tree/1.0.0"
+            },
+            "time": "2021-03-10T08:14:57+00:00"
         },
         {
             "name": "shirtcharity/klingelbeutel",

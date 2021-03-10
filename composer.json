@@ -48,6 +48,7 @@
         "php": "~7.2",
         "composer/package-versions-deprecated": "^1.8.0",
         "shirtcharity/chairman": "^1.0",
+        "shirtcharity/choix": "^1.0",
         "shirtcharity/klingelbeutel": "^1.0",
         "shirtcharity/shirt": "^1.0",
         "shirtcharity/shirtish": "^1.0",
