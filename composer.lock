@@ -4259,16 +4259,16 @@
         },
         {
             "name": "shirtcharity/choix",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shirtcharity/choix.git",
-                "reference": "4dd896b9f5d2836379b02c5abbdbfbe6e9278d48"
+                "reference": "17cdd6127f0a0aa24dd313d426912c5da78e2c9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shirtcharity/choix/zipball/4dd896b9f5d2836379b02c5abbdbfbe6e9278d48",
-                "reference": "4dd896b9f5d2836379b02c5abbdbfbe6e9278d48",
+                "url": "https://api.github.com/repos/shirtcharity/choix/zipball/17cdd6127f0a0aa24dd313d426912c5da78e2c9c",
+                "reference": "17cdd6127f0a0aa24dd313d426912c5da78e2c9c",
                 "shasum": ""
             },
             "type": "shopware-platform-plugin",
@@ -4297,9 +4297,9 @@
             "description": "Choix (Shopware plugin to provide a data transfer choice at checkout)",
             "support": {
                 "issues": "https://github.com/shirtcharity/choix/issues",
-                "source": "https://github.com/shirtcharity/choix/tree/1.0.0"
+                "source": "https://github.com/shirtcharity/choix/tree/1.1.0"
             },
-            "time": "2021-03-10T08:14:57+00:00"
+            "time": "2021-03-12T21:30:29+00:00"
         },
         {
             "name": "shirtcharity/klingelbeutel",
