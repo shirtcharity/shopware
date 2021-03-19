@@ -205,25 +205,22 @@
             "styleFiles": []
         }
     },
-    "SwagPayPal": {
-        "basePath": "custom\/plugins\/SwagPayPal\/src\/",
+    "Choix": {
+        "basePath": "vendor\/shirtcharity\/choix\/src\/",
         "views": [
             "Resources\/views"
         ],
-        "technicalName": "swag-pay-pal",
+        "technicalName": "choix",
         "administration": {
             "path": "Resources\/app\/administration\/src",
-            "entryFilePath": "Resources\/app\/administration\/src\/main.js",
-            "webpack": "Resources\/app\/administration\/build\/webpack.config.js"
+            "entryFilePath": null,
+            "webpack": null
         },
         "storefront": {
             "path": "Resources\/app\/storefront\/src",
             "entryFilePath": "Resources\/app\/storefront\/src\/main.js",
             "webpack": null,
-            "styleFiles": [
-                "custom\/plugins\/SwagPayPal\/src\/Resources\/app\/storefront\/src\/scss\/page\/checkout\/_finish.scss",
-                "custom\/plugins\/SwagPayPal\/src\/Resources\/app\/storefront\/src\/scss\/base.scss"
-            ]
+            "styleFiles": []
         }
     }
 }
