@@ -4347,16 +4347,16 @@
         },
         {
             "name": "shirtcharity/shirt",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shirtcharity/shirt.git",
-                "reference": "f86f4fb187e6c15e6b0a3b18dbc328cb11581acc"
+                "reference": "a046c41b97c9e282a135549145d398e192294de9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shirtcharity/shirt/zipball/f86f4fb187e6c15e6b0a3b18dbc328cb11581acc",
-                "reference": "f86f4fb187e6c15e6b0a3b18dbc328cb11581acc",
+                "url": "https://api.github.com/repos/shirtcharity/shirt/zipball/a046c41b97c9e282a135549145d398e192294de9",
+                "reference": "a046c41b97c9e282a135549145d398e192294de9",
                 "shasum": ""
             },
             "type": "shopware-platform-plugin",
@@ -4385,22 +4385,22 @@
             "description": "Shirt (shirt.charity Shopware Theme)",
             "support": {
                 "issues": "https://github.com/shirtcharity/shirt/issues",
-                "source": "https://github.com/shirtcharity/shirt/tree/1.3.0"
+                "source": "https://github.com/shirtcharity/shirt/tree/1.4.0"
             },
-            "time": "2021-03-10T08:23:24+00:00"
+            "time": "2021-03-29T15:55:46+00:00"
         },
         {
             "name": "shirtcharity/shirtish",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shirtcharity/shirtish.git",
-                "reference": "1ba54e0d1580daf39bc034f05a89b028ff64a690"
+                "reference": "b9b4e338589c8f727fa02d8433a775e68fe06370"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shirtcharity/shirtish/zipball/1ba54e0d1580daf39bc034f05a89b028ff64a690",
-                "reference": "1ba54e0d1580daf39bc034f05a89b028ff64a690",
+                "url": "https://api.github.com/repos/shirtcharity/shirtish/zipball/b9b4e338589c8f727fa02d8433a775e68fe06370",
+                "reference": "b9b4e338589c8f727fa02d8433a775e68fe06370",
                 "shasum": ""
             },
             "type": "shopware-platform-plugin",
@@ -4430,9 +4430,9 @@
             "description": "Shirtish (shirt.charity Shopware language pack)",
             "support": {
                 "issues": "https://github.com/shirtcharity/shirtish/issues",
-                "source": "https://github.com/shirtcharity/shirtish/tree/1.2.0"
+                "source": "https://github.com/shirtcharity/shirtish/tree/1.3.0"
             },
-            "time": "2021-02-20T20:55:53+00:00"
+            "time": "2021-03-29T15:45:29+00:00"
         },
         {
             "name": "shopware/administration",
