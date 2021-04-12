@@ -4347,16 +4347,16 @@
         },
         {
             "name": "shirtcharity/shirt",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shirtcharity/shirt.git",
-                "reference": "9fee20ad30659d7318d55e0d55a218e049003401"
+                "reference": "c0fddc08cd79dfc8872d0cc6ea3b1a1d9bbbcee4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shirtcharity/shirt/zipball/9fee20ad30659d7318d55e0d55a218e049003401",
-                "reference": "9fee20ad30659d7318d55e0d55a218e049003401",
+                "url": "https://api.github.com/repos/shirtcharity/shirt/zipball/c0fddc08cd79dfc8872d0cc6ea3b1a1d9bbbcee4",
+                "reference": "c0fddc08cd79dfc8872d0cc6ea3b1a1d9bbbcee4",
                 "shasum": ""
             },
             "type": "shopware-platform-plugin",
@@ -4385,9 +4385,9 @@
             "description": "Shirt (shirt.charity Shopware Theme)",
             "support": {
                 "issues": "https://github.com/shirtcharity/shirt/issues",
-                "source": "https://github.com/shirtcharity/shirt/tree/1.5.0"
+                "source": "https://github.com/shirtcharity/shirt/tree/1.6.0"
             },
-            "time": "2021-03-29T18:00:40+00:00"
+            "time": "2021-04-12T11:33:30+00:00"
         },
         {
             "name": "shirtcharity/shirtish",
