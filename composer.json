@@ -1,5 +1,6 @@
 {
-    "name": "shopware/production",
+    "name": "shirtcharity/shopware",
+    "description": "shirt.charity Shopware 6 distribution",
     "type": "project",
     "license": "MIT",
     "config": {
@@ -53,6 +54,11 @@
     "require": {
         "php": "^7.4 || ^8.0",
         "composer-runtime-api": "^2.0",
+        "shirtcharity/chairman": "^2.0",
+        "shirtcharity/choix": "^2.0",
+        "shirtcharity/klingelbeutel": "^2.0",
+        "shirtcharity/shirt": "^2.0",
+        "shirtcharity/shirtish": "^1.6",
         "shopware/administration": "~v6.4.0",
         "shopware/core": "~v6.4.0",
         "shopware/elasticsearch": "~v6.4.0",
