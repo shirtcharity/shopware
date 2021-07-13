@@ -14,20 +14,20 @@
     "minimum-stability": "stable",
     "scripts": {
         "pre-install-cmd": [
-            "[ ! -f vendor/autoload.php ] || bin/console system:update:prepare"
+            "[ ! -f vendor/autoload.php ] || $PHP_BINARY bin/console system:update:prepare"
         ],
         "pre-update-cmd": [
-            "[ ! -f vendor/autoload.php ] || bin/console system:update:prepare"
+            "[ ! -f vendor/autoload.php ] || $PHP_BINARY bin/console system:update:prepare"
         ],
         "post-install-cmd": [
             "@composer install --working-dir vendor/shopware/recovery --no-interaction --no-scripts",
             "@composer install --working-dir=vendor/shopware/recovery/Common --no-interaction --optimize-autoloader --no-suggest",
-            "[ ! -f install.lock ] || bin/console system:update:finish"
+            "[ ! -f install.lock ] || $PHP_BINARY bin/console system:update:finish"
         ],
         "post-update-cmd": [
             "@composer install --working-dir vendor/shopware/recovery --no-interaction --no-scripts",
             "@composer install --working-dir=vendor/shopware/recovery/Common --no-interaction --optimize-autoloader --no-suggest",
-            "[ ! -f install.lock ] || bin/console system:update:finish"
+            "[ ! -f install.lock ] || $PHP_BINARY bin/console system:update:finish"
         ]
     },
     "autoload": {
@@ -81,12 +81,12 @@
         "phpunit/php-code-coverage": "~9.2.5",
         "phpunit/phpunit": "~9.5.2",
         "smalot/pdfparser": "~0.14.0",
-        "symfony/browser-kit": "~4.4",
-        "symfony/dependency-injection": "~4.4 || ~5.2.3",
-        "symfony/dom-crawler": "~4.4 || ~5.2.3",
-        "symfony/phpunit-bridge": "~4.4 || ~5.2.3",
-        "symfony/stopwatch": "~4.4 || ~5.2.3",
-        "symfony/var-dumper": "~4.4 || ~5.2.3",
-        "symfony/web-profiler-bundle": "~4.4 || ~5.2.3"
+        "symfony/browser-kit": "~4.4 || ~5.2.3 || ~5.3.0",
+        "symfony/dependency-injection": "~4.4 || ~5.2.3 || ~5.3.0",
+        "symfony/dom-crawler": "~4.4 || ~5.2.3 || ~5.3.0",
+        "symfony/phpunit-bridge": "~4.4 || ~5.2.3 || ~5.3.0",
+        "symfony/stopwatch": "~4.4 || ~5.2.3 || ~5.3.0",
+        "symfony/var-dumper": "~4.4 || ~5.2.3 || ~5.3.0",
+        "symfony/web-profiler-bundle": "~4.4 || ~5.2.3 || ~5.3.0"
     }
 }

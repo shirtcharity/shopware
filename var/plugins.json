@@ -222,25 +222,5 @@
             "webpack": null,
             "styleFiles": []
         }
-    },
-    "MolliePayments": {
-        "basePath": "custom\/plugins\/MolliePayments\/src\/",
-        "views": [
-            "Resources\/views"
-        ],
-        "technicalName": "mollie-payments",
-        "administration": {
-            "path": "Resources\/app\/administration\/src",
-            "entryFilePath": "Resources\/app\/administration\/src\/main.js",
-            "webpack": null
-        },
-        "storefront": {
-            "path": "Resources\/app\/storefront\/src",
-            "entryFilePath": "Resources\/app\/storefront\/src\/main.js",
-            "webpack": null,
-            "styleFiles": [
-                "custom\/plugins\/MolliePayments\/src\/Resources\/app\/storefront\/src\/scss\/base.scss"
-            ]
-        }
     }
 }
